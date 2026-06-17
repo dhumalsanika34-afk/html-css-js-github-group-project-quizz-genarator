@@ -66,32 +66,31 @@ body{
    display: none;
 
 }
+.mobile-menu{
+   display: none;
+}
 
 @media (max-width:768px) {
 
    .menu-btn{
       display: block;
    }
+   
    .nav-links{
       display: none;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      flex-direction: column;
-      padding: 20px;
    }
    .login-button-contaner{
+      display: none;
+   }
+
+   .mobile-menu.active{
+      display: flex;
       flex-direction: column;
-      width: 100%;
+      align-items: center;
+    
+      gap: 15px;
+      color: white;
    }
 
- .main-box-navbar {
-
-   flex-wrap: wrap;
-
-
-
-   }
-   
+ 
 }
