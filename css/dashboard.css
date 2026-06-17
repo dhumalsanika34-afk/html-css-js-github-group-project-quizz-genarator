@@ -66,3 +66,19 @@ line-height: 1.5;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 }
+
+.categories-button button{
+    background-color: #0F172A;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+     display: block;
+    margin: 40px auto; 
+    cursor: pointer;
+}
+
+.categories-button a{
+    text-decoration: none;
+}
