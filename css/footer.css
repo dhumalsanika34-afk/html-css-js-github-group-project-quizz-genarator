@@ -2,17 +2,19 @@
     /*background: #0f172a;*/
     background: linear-gradient(135deg, #131a31 0%, #0d111f 100%);
     color: white;
-    padding: 60px 8% 20px;
+    padding: 60px 20px;
     margin-top: 80px;
+    padding-bottom: 20PX;
 }
 
 .footer-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
-}
+    max-width: 1200px;
+    margin: 0 auto;
 
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    column-gap: 40px;
+}
 .footer-box{
     flex: 1;
     min-width: 220px;
@@ -60,8 +62,8 @@
 }
 
 .footer-bottom{
-    border-top: 1px solid #334155;
-    margin-top: 40px;
+    border-top: 1px solid white;
+    margin-top: 20px;
     padding-top: 20px;
     text-align: center;
 }

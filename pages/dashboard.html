@@ -18,13 +18,13 @@
 
             <div class="menu-btn" id="menu-btn"><img src="./images/humbergear-menu.svg" height="30px"></div>
 
-            <div class="nav-links" id="links"><a href="./pages/dashboard.html" id="dashboard-link">Dashboard</a>
-                <a href="./pages/categories.html" id="Categories-link">Categories</a>
-                <a href="./pages/leaderboard.html" id="leaderboard-link">leaderboard</a>
-                <a href="#" target="_blank">Contact</a>
+            <div class="nav-links" id="links"><a href="../pages/dashboard.html" id="dashboard-link">Dashboard</a>
+                <a href="../pages/categories.html" id="Categories-link">Categories</a>
+                <a href="../pages/leaderboard.html" id="leaderboard-link">leaderboard</a>
+                <a href="../pages/contact-us.html">Contact</a>
             </div>
             <div class="login-button-contaner">
-                <button type="button" class="login-btn" id="logn-btn"><a>Login</a></button>
+                <button type="button" class="login-btn" id="logn-btn" onclick="goHome()"><a>Logout</a></button>
             </div>
         </div>
 
@@ -39,6 +39,7 @@
         </div>
 
     </header>
+    <hr>
 
     <!-- Body -->
 
@@ -48,9 +49,8 @@
     <div class="provide-catogories">
         <div class="design-cards">
             <h3>UPSC</h3>
+            <p style="text-align: center;">UPSC (Union Public Service Commission)</p>
             <br>
-            <p>UPSC is India’s most prestigious national-level exam for government jobs. It selects officers like IAS,
-                IPS, IFS, and IRS. <br>
             <p class="card-info"><span class="label">Level:</span> National</p>
             <p class="card-info"><span class="label">Posts:</span> IAS, IPS, IFS, IRS, etc.</p>
             <p class="card-info"><span class="label">Stages:</span> Prelims → Mains → Interview</p>
@@ -58,35 +58,29 @@
                 Subject</p>
             <p class="card-info"><span class="label">Career:</span> Top administrative and policy-making roles in India
             </p>
-            </p>
         </div>
 
         <div class="design-cards">
             <h3>MPSC</h3>
+            <p style="text-align: center;">MPSC (Maharashtra Public Service Commission) </p>
             <br>
-            <p>MPSC (Maharashtra Public Service Commission)
-                MPSC conducts exams for Maharashtra state government jobs.<br>
             <p class="card-info"><span class="label">Level:</span> State (Maharashtra)</p>
             <p class="card-info"><span class="label">Posts:</span> Deputy Collector, DYSP, Tehsildar, BDO</p>
             <p class="card-info"><span class="label">Stages:</span> Prelims → Mains → Interview</p>
             <p class="card-info"><span class="label">Focus:</span> Maharashtra History & Geography, Polity, Marathi</p>
             <p class="card-info"><span class="label">Career:</span> State-level administration and gazetted government
                 posts</p>
-            </p>
         </div>
 
         <div class="design-cards">
             <h3>NEET</h3>
+            <p style="text-align: center;">NEET (National Eligibility cum Entrance Test) </p>
             <br>
-            <p>
-                NEET (National Eligibility cum Entrance Test)
-                NEET is the medical entrance exam for students who want to become doctors.
             <p class="card-info"><span class="label">Level:</span> National</p>
             <p class="card-info"><span class="label">Field:</span> Medical (MBBS, BDS, BAMS, BHMS)</p>
             <p class="card-info"><span class="label">Stages:</span> Single Objective Entrance Exam</p>
             <p class="card-info"><span class="label">Focus:</span> Biology (Botany & Zoology), Physics, Chemistry</p>
             <p class="card-info"><span class="label">Career:</span> Doctor, Surgeon, Dentist, or Medical Professional
-            </p>
             </p>
         </div>
     </div>
@@ -94,25 +88,21 @@
     <div class="provide-catogories">
         <div class="design-cards">
             <h3>JEE</h3>
+            <p style="text-align: center;">JEE (Joint Entrance Examination)</p>
             <br>
-            <p>
-                JEE (Joint Entrance Examination)
-                JEE is the engineering entrance exam for admission into top engineering colleges like IITs and NITs.
             <p class="card-info"><span class="label">Level:</span> National</p>
             <p class="card-info"><span class="label">Field:</span> Engineering (IITs, NITs, IIITs, GFTIs)</p>
             <p class="card-info"><span class="label">Stages:</span> JEE Main → JEE Advanced</p>
             <p class="card-info"><span class="label">Focus:</span> Mathematics, Physics, Chemistry</p>
             <p class="card-info"><span class="label">Career:</span> Software Engineer, Data Scientist, Tech Researcher
             </p>
-            </p>
+
         </div>
 
         <div class="design-cards">
             <h3>RAILWAY</h3>
+            <p style="text-align: center;">Railway Recruitment (RRB Exams)</p>
             <br>
-            <p>
-                Railway Recruitment (RRB Exams)
-                Railway exams are conducted for various technical and non-technical posts in Indian Railways.
             <p class="card-info"><span class="label">Level:</span> National</p>
             <p class="card-info"><span class="label">Posts:</span> Station Master, Goods Guard, Clerk, Ticket Examiner
             </p>
@@ -120,15 +110,12 @@
             <p class="card-info"><span class="label">Focus:</span> General Awareness, Mathematics, Reasoning</p>
             <p class="card-info"><span class="label">Career:</span> Secure technical and non-technical roles in Indian
                 Railways</p>
-            </p>
         </div>
 
         <div class="design-cards">
             <h3>BANKING</h3>
+            <p style="text-align: center;">Banking Exams (IBPS, SBI, RBI)</p>
             <br>
-            <p>
-                Banking Exams (IBPS, SBI, RBI)
-                Banking exams are for recruitment in public sector banks.
             <p class="card-info"><span class="label">Level:</span> National</p>
             <p class="card-info"><span class="label">Posts:</span> Probationary Officer (PO), Specialist Officer (SO),
                 Clerk</p>
@@ -137,7 +124,6 @@
                 Awareness</p>
             <p class="card-info"><span class="label">Career:</span> Financial Analyst, Bank Manager, or Operations
                 Officer</p>
-            </p>
         </div>
     </div>
     <div class="categories-button">
@@ -229,13 +215,22 @@
 
     </div>
 
+    <!-- logout script -->
+
+    <script>
+        function goHome() {
+            alert("Do You Want To Logout Your Account?");
+            window.location.href = "../index.html";
+        }
+    </script>
+
     <footer class="footer">
 
         <div class="footer-container">
 
             <!-- Logo Section -->
             <div class="footer-box">
-                <h2 class="footer-logo">Quiz Master</h2>
+                <h2 class="footer-logo">Quizz Master</h2>
                 <p>
                     Challenge your knowledge, track your progress,
                     and compete with quiz enthusiasts worldwide.
@@ -246,31 +241,39 @@
             <div class="footer-box">
                 <h3>Quick Links</h3>
 
-                <a href="#">Home</a>
-                <a href="#">Dashboard</a>
-                <a href="#">Categories</a>
-                <a href="#">Leaderboard</a>
+                <a href="../index.html" class="quick-link">Home</a>
+                <a href="../pages/dashboard.html" class="quick-link">Dashboard</a>
+                <a href="../pages/categories.html" class="quick-link">Categories</a>
+                <a href="../pages/leaderboard.html" class="quick-link">Leaderboard</a>
             </div>
 
             <!-- Contact -->
             <div class="footer-box">
                 <h3>Contact Us</h3>
 
-                <p> quizmaster@gmail.com</p>
-                <p> +91 9876543210</p>
-                <p> India</p>
+                <p> <a href="mailto:quizmaster@gmail.com"><img src="../images/mail-icon.png"
+                            height="28px">quizmaster@gmail.com</a></p>
+                <p> <a href="callto:+91 9876543210"><img src="../images/call-icon.png" height="28px">+91 9876543210</a>
+                </p>
+                <p> <a href="https://maps.app.goo.gl/2eyyGiFhzCetyrBe6" alt="map" target="_blank"><img
+                            src="../images/location-icon.png" height="28px">pune India</a></p>
+
+
             </div>
 
             <!-- Social -->
             <div class="footer-box">
                 <h3>Follow Us</h3>
 
-                <a href="#"> GitHub</a>
-                <a href="#"> LinkedIn</a>
-                <a href="#"> Instagram</a>
-                <a href="#"> Twitter</a>
+                <a href="https://github.com/" target="_blank"><img src="../images/git-hub-icon.png" height="28px">
+                    GitHub</a>
+                <a href="https://in.linkedin.com/" target="_blank"> <img src="../images/linkedin-icon.png"
+                        height="28px">LinkedIn</a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../images/insta-icon.png" height="28px">
+                    Instagram</a>
+                <a href="https://x.com/" target="_blank"> <img src="../images/twitter-icon.png"
+                        height="28px">Twitter</a>
             </div>
-
         </div>
 
         <div class="footer-bottom">

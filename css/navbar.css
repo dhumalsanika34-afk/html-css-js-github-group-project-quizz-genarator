@@ -143,6 +143,7 @@ body {
     box-shadow: 0px 0px 10px 3px #cabfbf;
     justify-content: space-around;
     align-items: center;
+    
 
 
 }
@@ -154,28 +155,46 @@ body {
     border-radius: 8px;
     margin-bottom: 5px;
     height: 100%;
-
+box-sizing: border-box;
     font-size: 14px;
 }
 
 .modal-ctn button {
-    width: 50%;
+    width: 100%;
     padding: 12px;
-    margin-top: 25px;
-    border-radius: 8px;
-    background-color: #6366F1;
+    margin-top: 15px;
+    
+    background-color: #007bff;
     color: white;
     cursor: pointer;
     text-align: center;
-    margin-left: 60px;
+    
+    margin-bottom: 15px;
+    height: 100%;
+  
+     border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3 ese;
 }
+
 
 
 .modal-ctn h2 {
     margin-bottom: 28px;
-    font-size: 35px;
+   
     margin-left: 10px;
     text-align: center;
+     font-family: sans-serif;
+     font-size: 24px;
+    font-family: sans-serif;
+    color: #333;
+}
+.form-img{
+     width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .close {
@@ -243,6 +262,7 @@ body {
     outline: none;
     box-sizing: border-box;
     transition: border-color 0.3s ease;
+    text-align: start;
 
 }
 #signupForm input:focus{
@@ -268,11 +288,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 50%;
+    align-items: center;
 }
 
 .form-wrapper h2{
-    margin: 0;
+    
     font-size: 24px;
     font-family: sans-serif;
     color: #333;
+    
+}
+.signup-img{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
 }
