@@ -9,25 +9,24 @@
 
 /* BODY */
 body{
-    background-color:#151c35;
-    font-family:Arial, sans-serif;
+    background-color:#0d1222;
+    font-family:inherit;
     color:white;
-    text-align:center;
-    padding:20px;
 }
 
 /* CARD */
 .card{
-    background-color:whitesmoke;
+    background-color:#18223c;
     padding:20px;
-    border-radius:12px;
-    border:1px solid #c3c6d7;
+    border-radius:20px;
+    box-shadow:0 3px 10px rgb(247, 245, 245);
     cursor:pointer;
     transition:0.3s;
     text-align:center;
     height:220px;
     width:250px;
-    margin:auto;
+    gap: 30px;
+    margin:20px;
 }
 
 /* HOVER EFFECT */
@@ -48,7 +47,7 @@ body{
 /* TITLE */
 .card h3{
     font-size:18px;
-    color:blue;
+    color:#6366f1;
     margin-bottom:10px;
 }
 
@@ -138,3 +137,47 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
+.quiz-box{
+    width: 500px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header{
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h2{
+    margin: 0;
+}
+
+#timer{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Quiz Card Header */
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Quiz Title */
+.card-header h2{
+    margin: 0;
+    font-size: 24px;
+}
+

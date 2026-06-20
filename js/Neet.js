@@ -50,6 +50,25 @@ const questions = [
         answer: "DNA"
     }
 ];
+let time = 120; //2 min
+
+let timer = setInterval(() => {
+
+    let minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+
+    document.getElementById("timer").innerText =
+        `${minutes}:${seconds < 2 ? "0" : ""}${seconds}`;
+
+    time--;
+
+    if (time < 0) {
+        clearInterval(timer);
+        alert("Time Over! Exam Ended.");
+    }
+
+}, 1000);
+
 let currentQuestion = 0;
 let score = 0;
 

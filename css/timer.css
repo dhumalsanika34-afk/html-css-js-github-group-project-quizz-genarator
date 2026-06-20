@@ -1,0 +1,29 @@
+.quiz-box{
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: lavenderblush;
+    border-radius: 13x;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    position: relative; /* Required for timer positioning */
+}
+
+#timer{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+
+    width: 90px;
+    padding: 10px;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    color: black;
+    background-color: rgb(214, 103, 103);
+
+    border: 2px solid rgb(86, 25, 25);
+    border-radius: 8px;
+}
